@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #3e5757;
+    color: #ccc2c2;
+    font-style: italic;
+    font-family: "Bodoni MT Black", serif;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+input, button {
+    all: unset;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-inline: 20px;
+    padding-block: 10px;
+    margin-bottom: 10px;
+}
+select {
+    all: unset;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    background: #ccc2c2;
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+}
